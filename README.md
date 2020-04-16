@@ -4,7 +4,7 @@
 Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.
 
 > **Preview:**
-> [Instagram Codenation](https://aceleradev-react.netlify.com/aula-02/public)
+> [Instagram Codenation](https://luansilvae.github.io/instagram-codenation/)
 
 ## Tópicos:
 Neste desafio, você vai praticar os seus conhecimentos em: 
@@ -43,7 +43,11 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 
 ## Screenshots de Referência
 ### Versão Mobile:
-![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-mobile.jpg)
+<p align="center">
+    <img alt="Instagram Clone" title="Instagram Clone" src=".github/Screenshot-Instagram Codenation-Mobile.jpg">
+</p>
 
 ### Versão Desktop:
-![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-desktop.jpg)
+<p align="center">
+    <img alt="Instagram Clone" title="Instagram Clone" src=".github/Screenshot-Instagram Codenation-Desktop.jpg"/>
+</p>
