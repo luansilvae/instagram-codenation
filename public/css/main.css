@@ -256,11 +256,15 @@ article.post .post__comment input {
 	background: none;
 }
 
-
 article.post .post__comment .btn-post {
 	font-size: 14px;
-	color: #0095F6;
+	color: #0095F644;
 	font-weight: bold;
+	transition: color 200ms ease-in-out;
+}
+
+article.post .post__comment input:focus + .btn-post {
+	color: #0095F6;
 }
 
 /* MEDIA QUERIE */
