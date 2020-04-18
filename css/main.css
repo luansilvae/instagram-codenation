@@ -22,7 +22,7 @@ body, input {
 header.topbar {
 	background-color: #fff;
 	padding: 8px 16px;
-	border-bottom: 1px solid #e7e7e7;
+	border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
 	width: 100%;
 	top: 0;
 	position: fixed;
@@ -77,29 +77,41 @@ header.topbar .topbar__actions .topbar_list a {
 section.stories {
 	max-width: 728px;
 	width: 100%;
-	margin: 57px auto 0 auto;
+	margin: 56px auto 0 auto;
 	padding: 12px 4px;
 	display: flex;
 	justify-content: flex-start;
+
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
+	border-radius: 0 0 5px 5px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+section.stories {
+	border-top: 0;
 }
 
 section.stories .stories__thumb-user {
-	width: 66px;
-	height: 66px;
+	width: 67px;
+	height: 67px;
 	margin: 0 8px;
 	border-radius: 50%;
-	border: 2.5px solid #fff;
-	box-shadow: 0 0 0 2.5px #e3e3e3;
+	padding: 2px;
+	background-color: #e3e3e3;
 }
 
 section.stories .stories__thumb-user--new {
-	box-shadow: 0 0 0 2.5px #cc2366;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
 section.stories .stories__thumb-user img {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
+	border: 2px solid #fff;
 }
 
 /* FEED */
@@ -130,7 +142,7 @@ section.feed article.post header.post__header {
 	width: 100%;
 	height: 56px;
 	background-color: #fff;
-	border: 1px solid #e7e7e7;
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
 	border-radius: 5px 5px 0 0;
 }
 
@@ -235,15 +247,15 @@ article.post .post__date {
 article.post .post__controls, 
 .post__status,
 .post__date {
-	border-left: 1px solid #e7e7e7;
-	border-right: 1px solid #e7e7e7;
+	border-left: 1px solid rgba(var(--b6a,219,219,219),1);
+	border-right: 1px solid rgba(var(--b6a,219,219,219),1);
 }
 
 article.post .post__comment {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid #e7e7e7;
+	border: 1px solid rgba(var(--b6a,219,219,219),1);
 	border-radius: 0 0 5px 5px;
 	padding: 16px 16px 16px 16px;
 }
@@ -275,7 +287,12 @@ article.post .post__comment input:focus + .btn-post {
 	}
 
 	section.stories {
-		border-bottom: 1px solid #e7e7e7;
+		border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+		border-radius: 0;
+		border-left: 0;
+		border-right: 0;
+		margin-bottom: 0;
+		background: #fafafa;
 	}
 
 	section.feed article.post header.post__header {
