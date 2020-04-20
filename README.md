@@ -3,7 +3,7 @@
 ## Objetivo:
 Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.
 
-> **Preview:**
+> **Deploy:**
 > [Instagram Codenation](https://luansilvae.github.io/instagram-codenation/)
 
 ## Tópicos:
@@ -35,13 +35,12 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 ## Dicas:
 * Utilize as tags semânticas do HTML5 onde julgar necessário;
 * Você pode fazer o download do [Normalize CSS](https://necolas.github.io/normalize.css/) e utilizá-lo no projeto para **"normalizar/resetar"** os estilos padrão dos navegadores;
-* Inspecione os elementos do preview do [Instagram Codenation](https://aceleradev-react.netlify.com/aula-02/public/) e descubra como alguns efeitos foram executados.
 * [Guia BEM CSS](http://getbem.com/naming/)
 * [Guia Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
 * [Guia HTML5](https://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf)
 * [Guia CSS3](https://www.w3c.br/pub/Materiais/PublicacoesW3C/guia-css-w3cbr.pdf)
 
-## Screenshots de Referência
+## Layout
 ### Versão Mobile:
 <p align="center">
     <img alt="Instagram Clone" title="Instagram Clone" src=".github/Screenshot-Instagram Codenation-Mobile.jpg">
